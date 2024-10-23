@@ -1,6 +1,6 @@
 let jokers = [
   {
-    name: "Polished Joker",
+    name: "Polished Stone",
     text: [
       "Gives {C:chips}+25{} Chips and",
       "Joker gains {C:chips}+50{} Chips",
