@@ -1,12 +1,14 @@
 let jokers = [
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Common"
-  // }
+  {
+    name: "Polished Joker",
+    text: [
+      "Gives {C:chips}+25{} Chips and",
+      "Joker gains {C:chips}+50{} Chips",
+      "per {C:attention}Stone{} card played"
+    ],
+    image_url: "img/polished.png",
+    rarity: "Uncommon"
+  }
 ]
 
 // works the same. 
@@ -110,22 +112,22 @@ let blinds = [
 ]
 
 let shop_items = [
-  {
-    name: "Joker",
-    text: [
-      "{C:mult}+4{} Mult"
-    ],
-    image_url: "img/j_joker.png",
-    rarity: "Voucher"
-  },
-  {
-    name: "Joker",
-    text: [
-      "{C:mult}+4{} Mult"
-    ],
-    image_url: "img/j_joker.png",
-    rarity: "Pack"
-  },
+//  {
+//    name: "Joker",
+//    text: [
+//      "{C:mult}+4{} Mult"
+//    ],
+//    image_url: "img/j_joker.png",
+//    rarity: "Voucher"
+//  },
+//  {
+//    name: "Joker",
+//    text: [
+//      "{C:mult}+4{} Mult"
+//    ],
+//    image_url: "img/j_joker.png",
+//    rarity: "Pack"
+//  },
 ]
 
 let cols = {
