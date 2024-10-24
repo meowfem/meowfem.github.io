@@ -2,7 +2,7 @@ let jokers = [
   {
     name: "The Sad Onion",
     text: [
-      "{C:chips}+#1#{} Chips Up"
+      "{C:chips}+70{} Chips Up"
     ],
     image_url: "img/thesadonion.png",
     rarity: "Rare"
@@ -10,7 +10,7 @@ let jokers = [
   {
     name: "The Inner Eye",
     text: [
-      "{X:chips,C:white}#1#x{} Chips"
+      "{X:chips,C:white}3x{} Chips"
     ],
     image_url: "img/theinnereye.png"
   },
@@ -24,23 +24,23 @@ let jokers = [
   {
     name: "Cricket's Head",
     text: [
-      "{C:mult}+#1#{} Mult",
-      "{X:mult,C:white}#2#x{} Mult"
+      "{C:mult}+5{} Mult",
+      "{X:mult,C:white}1.5x{} Mult"
     ],
     image_url: "img/cricketshead.png"
   },
   {
     name: "My Reflection",
     text: [
-      "{C:blue}+#1#{} Hands"
+      "{C:blue}+2{} Hands"
     ],
     image_url: "img/myreflection.png"
   },
   {
     name: "Number One",
     text: [
-      "{C:chips}+#1#{} Chips",
-      "{C:blue}#2#{} Hands"
+      "{C:chips}+150{} Chips",
+      "{C:blue}-1{} Hands"
     ],
     image_url: "img/numberone.png"
   }
