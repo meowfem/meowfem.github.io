@@ -10,7 +10,7 @@ let jokers = [
   {
     name: "The Inner Eye",
     text: [
-      "{X:chips,C:white}3x{} Chips"
+      "{C:hands}+3{} Hands"
     ],
     image_url: "img/theinnereye.png",
     rarity: "Uncommon"
@@ -35,7 +35,7 @@ let jokers = [
   {
     name: "My Reflection",
     text: [
-      "{C:blue}+2{} Hands"
+      "{C:blue}+2{} Hand Size"
     ],
     image_url: "img/myreflection.png",
     rarity: "Uncommon"
@@ -44,130 +44,107 @@ let jokers = [
     name: "Number One",
     text: [
       "{C:chips}+150{} Chips",
-      "{C:blue}-1{} Hands"
+      "{C:blue}-1{} Hand Size"
     ],
     image_url: "img/numberone.png",
     rarity: "Uncommon"
   }
 ]
 
-// works the same. 
+ 
 let consumables = [
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Tarot"
-  // },
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Planet"
-  // },
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Spectral"
-  // },
+  {
+    name: "Blood of The Martyr",
+    text: [
+      ""
+    ],
+    image_url: "img/bloodofthemartyr.png",
+    rarity: "Rare",
+  },
+  {
+    name: "Brother Bobby",
+    text: [
+      ""
+    ],
+    image_url: "img/brotherbobby.png",
+    rarity: "Common"
+  },
+  {
+    name: "Skatole",
+    text: [
+      ""
+    ],
+    image_url: "img/skatole.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "Halo of Flies",
+    text: [
+      ""
+    ],
+    image_url: "img/haloofflies.png",
+    rarity: "Uncommon"
+  },
+  {
+    name: "1up!",
+    text: [
+      ""
+    ],
+    image_url: "img/1up!.png",
+    rarity: "Uncommon"
+  },
+  {
+    name: "Magic Mushroom",
+    text: [
+      ""
+    ],
+    image_url: "img/magicmushroom.png",
+    rarity: "Legendary"
+  },
+  {
+    name: "The Virus",
+    text: [
+      ""
+    ],
+    image_url: "img/thevirus.png",
+    rarity: "Uncommon"
+  },
+  {
+    name: "Roid Rage",
+    text: [
+      ""
+    ],
+    image_url: "img/roidrage.png",
+    rarity: "Uncommon"
+  },
+  {
+    name:"<3",
+    text: [
+      ""
+    ],
+    image_url: "img/heart.png",
+    rarity: "Uncommon"
+  }
 ]
 
 let card_modifications = [
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Enhancement"
-  // },
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Edition"
-  // },
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/sticker_example.png",
-  //   rarity: "Seal"
-  // },
+
 ]
 
 let decks = [
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Deck"
-  // },
+
 ]
 
 let stickers = [
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/sticker_example.png",
-  //   rarity: "Sticker"
-  // },
+
 ]
 
 let blinds = [
-  // {
-  //   name: "The Wall",
-  //   text: [
-  //     "Extra large blind",
-  //     "{C:inactive}({C:red}4x{C:inactive} Base for {C:attention}$$$$${C:inactive})",
-  //     "{C:inactive}(Appears from Ante 2)"
-  //   ],
-  //   image_url: "img/the_wall.png",
-  //   rarity: "Boss Blind"
-  // },
-  // {
-  //   name: "Violet Vessel",
-  //   text: [
-  //     "Very large blind",
-  //     "{C:inactive}({C:red}6x{C:inactive} Base for {C:attention}$$$$$$$${C:inactive})",
-  //     "{C:inactive}(Appears from Ante 8)"
-  //   ],
-  //   image_url: "img/violet_vessel.png",
-  //   rarity: "Showdown"
-  // },
+
 ]
 
 let shop_items = [
-//  {
-//    name: "Joker",
-//    text: [
-//      "{C:mult}+4{} Mult"
-//    ],
-//    image_url: "img/j_joker.png",
-//    rarity: "Voucher"
-//  },
-//  {
-//    name: "Joker",
-//    text: [
-//      "{C:mult}+4{} Mult"
-//    ],
-//    image_url: "img/j_joker.png",
-//    rarity: "Pack"
-//  },
+
 ]
 
 let cols = {
