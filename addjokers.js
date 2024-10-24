@@ -5,7 +5,7 @@ let jokers = [
       "{C:chips}+70{} Chips Up"
     ],
     image_url: "img/thesadonion.png",
-    rarity: "Rare"
+    rarity: "Quality 3"
   },
   {
     name: "The Inner Eye",
@@ -13,7 +13,7 @@ let jokers = [
       "{C:hands}+3{} Hands"
     ],
     image_url: "img/theinnereye.png",
-    rarity: "Uncommon"
+    rarity: "Quality 2"
   },
   {
     name: "Spoon Bender",
@@ -21,7 +21,7 @@ let jokers = [
       "Balances {C:chips}Chips{} and {C:mult}Mult{}"
     ],
     image_url: "img/spoonbender.png",
-    rarity: "Rare"
+    rarity: "Quality 2"
   },
   {
     name: "Cricket's Head",
@@ -30,7 +30,7 @@ let jokers = [
       "{X:mult,C:white}1.5x{} Mult"
     ],
     image_url: "img/cricketshead.png",
-        rarity: "Legendary"
+        rarity: "Quality 4"
   },
   {
     name: "My Reflection",
@@ -38,7 +38,7 @@ let jokers = [
       "{C:blue}+2{} Hand Size"
     ],
     image_url: "img/myreflection.png",
-    rarity: "Uncommon"
+    rarity: "Quality 2"
   },
   {
     name: "Number One",
@@ -47,7 +47,7 @@ let jokers = [
       "{C:blue}-1{} Hand Size"
     ],
     image_url: "img/numberone.png",
-    rarity: "Uncommon"
+    rarity: "Quality 2"
   }
 ]
 
@@ -56,74 +56,120 @@ let consumables = [
   {
     name: "Blood of The Martyr",
     text: [
-      ""
+      "{C:mult}+10{} Mult"
     ],
     image_url: "img/bloodofthemartyr.png",
-    rarity: "Rare",
+    rarity: "Quality 3",
   },
   {
     name: "Brother Bobby",
     text: [
-      ""
+      "{C:inactive}TBD{}"
     ],
     image_url: "img/brotherbobby.png",
-    rarity: "Common"
+    rarity: "Quality 1"
   },
   {
     name: "Skatole",
     text: [
-      ""
+      "{C:inactive}TBD{}"
     ],
     image_url: "img/skatole.png",
-    rarity: "Legendary"
+    rarity: "Quality 0"
   },
   {
     name: "Halo of Flies",
     text: [
-      ""
+      "{C:inactive}TBD{}"
     ],
     image_url: "img/haloofflies.png",
-    rarity: "Uncommon"
+    rarity: "Quality 2"
   },
   {
     name: "1up!",
     text: [
-      ""
+      "Prevents death {C:attention}once{}",
+      "{C:red}Self destructs{}"
     ],
     image_url: "img/1up!.png",
-    rarity: "Uncommon"
+    rarity: "Quality 2"
   },
   {
     name: "Magic Mushroom",
     text: [
-      ""
+      "{X:attention,C:white}0.9x{} Blind Requirement",
+      "{C:mult}+10{} Mult",
+      "{X:mult,C:white}1.5x{} Mult",
+      "{C:blue}+3{} Hand Size"
     ],
     image_url: "img/magicmushroom.png",
-    rarity: "Legendary"
+    rarity: "Quality 4"
   },
   {
     name: "The Virus",
     text: [
-      ""
+      "{C:mult}+12{} Mult if {C:attention}first{} hand of blind"
     ],
     image_url: "img/thevirus.png",
-    rarity: "Uncommon"
+    rarity: "Quality 2"
   },
   {
     name: "Roid Rage",
     text: [
-      ""
+      "{C:blue}+1{} Hand Size",
+      "Gains {C:blue}+1{} Hand Size permanently per {C:attention}Blind Skipped{}"
     ],
     image_url: "img/roidrage.png",
-    rarity: "Uncommon"
+    rarity: "Quality 2"
   },
   {
-    name:"<3",
+    name: "<3",
     text: [
-      ""
+      "{X:attention,C:white}0.9x{} Blind Requirement"
     ],
     image_url: "img/heart.png",
-    rarity: "Uncommon"
+    rarity: "Quality 2"
+  },
+  {
+    name: "Raw Liver",
+    text: [
+      "{X:attention,C:white}0.85x{} Blind Requirement"
+    ],
+    image_url: "img/rawliver.png",
+    rarity: "Quality 2"
+  },
+  {
+    name: "A Dollar",
+    text: [
+      "{X:attention,C:white}99{} {C:attention}Sell Value{}",
+      "{C:inactive}(No other effects){}"
+    ],
+    image_url: "img/adollar.png",
+    rarity: "Quality 3"
+  },
+  {
+    name: "Boom!",
+    text: [
+      "{C:red}+10{} {C:attention}Temporary{} discards"
+    ],
+    image_url: "img/boom!.png",
+    rarity: "Quality 0"
+  },
+  {
+    name: "Lunch",
+    text: [
+      "{X:attention,C:white}0.95x{} Blind Requirement"
+    ],
+    image_url: "img/lunch.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Dinner",
+    text: [
+      "{X:attention,C:white}0.95x{} Blind Requirement"
+    ],
+    image_url: "img/dinner.png",
+    rarity: "Quality 1"
   }
 ]
 
@@ -208,6 +254,11 @@ let rarities = {
   "Sticker": "#5d5dff",
   "Boss Blind": "#5d5dff",
   "Showdown": "#4584fa",
+  "Quality 0": "#c2c2c2",
+  "Quality 1": "#90ff51",
+  "Quality 2": "#65d5ff",
+  "Quality 3": "#ff54ec",
+  "Quality 4": "#ffd100"
 }
 
 regex = /{([^}]+)}/g;
