@@ -12,14 +12,16 @@ let jokers = [
     text: [
       "{X:chips,C:white}3x{} Chips"
     ],
-    image_url: "img/theinnereye.png"
+    image_url: "img/theinnereye.png",
+    rarity: "Uncommon"
   },
   {
     name: "Spoon Bender",
     text: [
       "Balances {C:chips}Chips{} and {C:mult}Mult{}"
     ],
-    image_url: "img/spoonbender.png"
+    image_url: "img/spoonbender.png",
+    rarity: "Rare"
   },
   {
     name: "Cricket's Head",
@@ -27,14 +29,16 @@ let jokers = [
       "{C:mult}+5{} Mult",
       "{X:mult,C:white}1.5x{} Mult"
     ],
-    image_url: "img/cricketshead.png"
+    image_url: "img/cricketshead.png",
+        rarity: "Legendary"
   },
   {
     name: "My Reflection",
     text: [
       "{C:blue}+2{} Hands"
     ],
-    image_url: "img/myreflection.png"
+    image_url: "img/myreflection.png",
+    rarity: "Uncommon"
   },
   {
     name: "Number One",
@@ -42,7 +46,8 @@ let jokers = [
       "{C:chips}+150{} Chips",
       "{C:blue}-1{} Hands"
     ],
-    image_url: "img/numberone.png"
+    image_url: "img/numberone.png",
+    rarity: "Uncommon"
   }
 ]
 
