@@ -139,6 +139,14 @@ let consumables = [
     rarity: "Quality 2"
   },
   {
+    name: "Skeleton Key",
+    text: [
+      "{C:inactive}TBD{}"
+    ],
+    image_url: "img/skeletonkey.png",
+    rarity: "Quality 3"
+  },
+  {
     name: "A Dollar",
     text: [
       "{X:attention,C:white}99{} {C:attention}Sell Value{}",
@@ -156,6 +164,22 @@ let consumables = [
     rarity: "Quality 0"
   },
   {
+    name: "Transcendence",
+    text: [
+      "{C:inactive}TBD{}"
+    ],
+    image_url: "img/transcendence.png",
+    rarity: "Quality 3"
+  },
+  {
+    name: "The Compass",
+    text: [
+      "{C:inactive}TBD{}"
+    ],
+    image_url:"img/thecompass.png",
+    rarity: "Quality 2"
+  },
+  {
     name: "Lunch",
     text: [
       "{X:attention,C:white}0.95x{} Blind Requirement"
@@ -170,7 +194,160 @@ let consumables = [
     ],
     image_url: "img/dinner.png",
     rarity: "Quality 1"
-  }
+  },
+  {
+    name: "Dessert",
+    text: [
+      "{X:attention,C:white}0.95x{} Blind Requirement"
+    ],
+    image_url: "img/dessert.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Breakfast",
+    text: [
+      "{X:attention,C:white}0.95x{} Blind Requirement"
+    ],
+    image_url: "img/breakfast.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Rotten Meat",
+    text: [
+      "{X:attention,C:white}0.95x{} Blind Requirement"
+    ],
+    image_url: "img/rottenmeat.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Wooden Spoon",
+    text: [
+      "{C:inactive}TBD{}"
+    ],
+    image_url: "img/woodenspoon.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "The Belt",
+    text: [
+      "{C:inactive}TBD{}"
+    ],
+    image_url: "img/thebelt.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Mom's Underwear",
+    text: [
+      "{C:blue}+3{} Hand Size"
+    ],
+    image_url: "img/momsunderwear.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Mom's Heels",
+    text: [
+        "{C:blue}+3{} Hand Size"
+    ],
+    image_url: "img/momsheels.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Mom's Lipstick",
+    text: [
+        "{C:blue}+3{} Hand Size"
+    ],
+    image_url: "img/momslipstick.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Wire Coat Hanger",
+    text: [
+      "{C:chips}+70{} Chips"
+    ],
+    image_url: "img/wirecoathanger.png",
+    rarity: "Quality 3"
+  },
+  {
+    name: "The Bible",
+    text: [
+      "{C:inactive}TBD{}"
+    ],
+    image_url: "img/thebible.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "The Book of Belial",
+    text: [
+      "{C:inactive}TBD{}"
+    ],
+    image_url: "img/thebookofbelial.png",
+    rarity: "Quality 2"
+  },
+  {
+    name: "The Necronomicon",
+    text: [
+      "{C:inactive}TBD{}"
+    ],
+    image_url: "img/thenecronomicon.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "The Poop",
+    text: [
+      "{C:inactive}TBD{}"
+    ],
+    image_url: "img/thepoop.png",
+    rarity: "Quality 0"
+  },
+  {
+    name: "Mr. Boom",
+    text: [
+      "{C:inactive}TBD{}"
+    ],
+    image_url: "img/mrboom.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Tammy's Head",
+    text: [
+      "{C:inactive}TBD{}"
+    ],
+    image_url: "img/tammyshead.png",
+    rarity: "Quality 2"
+  },
+  {
+    name: "Mom's Bra",
+    text: [
+      "{C:attention}Disables{} Boss Blind abilities for {C:attention}2{} Hands"
+    ],
+    image_url: "img/momsbra.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Kamikaze",
+    text: [
+      "{C:inactive}TBD{}"
+    ],
+    image_url: "img/kamikaze.png",
+    rarity: "Quality 0"
+  },
+  {
+    name: "Mom's Pad",
+    text: [
+        "{C:attention}Disables{} Boss Blind abilities for {C:attention}2{} Hands"
+    ],
+    image_url: "img/momspad.png",
+    rarity: "Quality 0"
+  },
+  {
+    name: "Bob's Rotten Head",
+    text: [
+      "{C:inactive}TBD{}"
+    ],
+    image_url: "img/bobsrottenhead.png",
+    rarity: "Quality 1"
+  },
+  
 ]
 
 let card_modifications = [
