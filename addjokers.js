@@ -1,13 +1,48 @@
 let jokers = [
   {
-    name: "Polished Stone",
+    name: "The Sad Onion",
     text: [
-      "Gives {C:chips}+25{} Chips and",
-      "Joker gains {C:chips}+50{} Chips",
-      "per {C:attention}Stone{} card played"
+      "{C:chips}+#1#{} Chips Up"
     ],
-    image_url: "img/polished.png",
-    rarity: "Uncommon"
+    image_url: "img/thesadonion.png",
+    rarity: "Rare"
+  }
+  {
+    name: "The Inner Eye",
+    text: [
+      "{X:chips,C:white}#1#x{} Chips"
+    ],
+    image_url: "img/theinnereye.png"
+  }
+  {
+    name: "Spoon Bender",
+    text: [
+      "Balances {C:chips}Chips{} and {C:mult}Mult{}"
+    ],
+    image_url: "img/spoonbender.png"
+  }
+  {
+    name: "Cricket's Head",
+    text: [
+      "{C:mult}+#1#{} Mult",
+      "{X:mult,C:white}#2#x{} Mult"
+    ],
+    image_url: "img/cricketshead.png"
+  }
+  {
+    name: "My Reflection",
+    text: [
+      "{C:blue}+#1#{} Hands"
+    ],
+    image_url: "img/myreflection.png"
+  }
+  {
+    name: "Number One",
+    text: [
+      "{C:chips}+#1#{} Chips",
+      "{C:blue}#2#{} Hands"
+    ],
+    image_url: "img/numberone.png"
   }
 ]
 
