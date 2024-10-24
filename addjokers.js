@@ -6,21 +6,21 @@ let jokers = [
     ],
     image_url: "img/thesadonion.png",
     rarity: "Rare"
-  }
+  },
   {
     name: "The Inner Eye",
     text: [
       "{X:chips,C:white}#1#x{} Chips"
     ],
     image_url: "img/theinnereye.png"
-  }
+  },
   {
     name: "Spoon Bender",
     text: [
       "Balances {C:chips}Chips{} and {C:mult}Mult{}"
     ],
     image_url: "img/spoonbender.png"
-  }
+  },
   {
     name: "Cricket's Head",
     text: [
@@ -28,14 +28,14 @@ let jokers = [
       "{X:mult,C:white}#2#x{} Mult"
     ],
     image_url: "img/cricketshead.png"
-  }
+  },
   {
     name: "My Reflection",
     text: [
       "{C:blue}+#1#{} Hands"
     ],
     image_url: "img/myreflection.png"
-  }
+  },
   {
     name: "Number One",
     text: [
