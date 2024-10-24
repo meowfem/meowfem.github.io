@@ -347,6 +347,158 @@ let consumables = [
     image_url: "img/bobsrottenhead.png",
     rarity: "Quality 1"
   },
+  {
+    name: "Teleport",
+    text: [
+      "{C:inactive}TBD{}"
+    ],
+    image_url: "img/teleport.png",
+    rarity: "Quality 0"
+  },
+  {
+    name: "Yum Heart",
+    text: [
+      "{C:inactive}TBD{}"
+    ],
+    image_url: "img/yumheart.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Lucky Foot",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/luckyfoot.png",
+    rarity: "Quality 2"
+  },
+  {
+    name: "Doctor's Remote",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/doctorsremote.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Cupid's Arrow",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/cupidsarrow.png",
+    rarity: "Quality 3"
+  },
+  {
+    name: "Shoop Da Whoop!",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/shoopdawhoop.png",
+    rarity: "Quality 2"
+  },
+  {
+    name: "Steven",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/steven.png",
+    rarity: "Quality 3"
+  },
+  {
+    name: "Pentagram",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/pentagram.png",
+    rarity: "Quality 3"
+  },
+  {
+    name: "Dr. Fetus",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/drfetus.png",
+    rarity: "Quality 4"
+  },
+  {
+    name: "Magneto",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/magneto.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Treasure Map",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/treasuremap.png",
+    rarity: "Quality 2"
+  },
+  {
+    name: "Mom's Eye",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/momseye.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Lemon Mishap",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/lemonmishap.png",
+    rarity: "Quality 0"
+  },
+  {
+    name: "Distant Admiration",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/distantadmiration.png",
+    rarity: "Quality 2"
+  },
+  {
+    name: "Book of Shadows",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/bookofshadows.png",
+    rarity: "Quality 3"
+  },
+  {
+    name: "The Ladder",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/theladder.png",
+    rarity: "Quality 0"
+  },
+  {
+    name: "Charm of The Vampire",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/charmofthevampire.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "The Battery",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/thebattery.png",
+    rarity: "Quality 2"
+  },
+  {
+    name: "Steam Sale",
+    text: [
+    "{C:inactive}TBD{}"
+    ],
+    image_url: "img/steamsale.png",
+    rarity: "Quality 2"
+  },
   
 ]
 
