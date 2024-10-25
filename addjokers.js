@@ -85,6 +85,23 @@ let jokers = [
     image_url: "img/thevirus.png",
     rarity: "Quality 2"
   },
+  {
+    name: "Roid Rage",
+    text: [
+      "{C:blue}+1{} Hand Size",
+      "Gains {C:blue}+1{} Hand Size permanently per {C:attention}Blind Skipped{}"
+    ],
+    image_url: "img/roidrage.png",
+    rarity: "Quality 2"
+  },
+  {
+    name: "<3",
+    text: [
+      "{X:attention,C:white}0.9x{} Blind Requirement"
+    ],
+    image_url: "img/heart.png",
+    rarity: "Quality 2"
+  },
 ]
 
  
@@ -111,23 +128,6 @@ let consumables = [
       "{C:inactive}TBD{}"
     ],
     image_url: "img/haloofflies.png",
-    rarity: "Quality 2"
-  },
-  {
-    name: "Roid Rage",
-    text: [
-      "{C:blue}+1{} Hand Size",
-      "Gains {C:blue}+1{} Hand Size permanently per {C:attention}Blind Skipped{}"
-    ],
-    image_url: "img/roidrage.png",
-    rarity: "Quality 2"
-  },
-  {
-    name: "<3",
-    text: [
-      "{X:attention,C:white}0.9x{} Blind Requirement"
-    ],
-    image_url: "img/heart.png",
     rarity: "Quality 2"
   },
   {
