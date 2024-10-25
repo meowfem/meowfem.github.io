@@ -48,11 +48,7 @@ let jokers = [
     ],
     image_url: "img/numberone.png",
     rarity: "Quality 2"
-  }
-]
-
- 
-let consumables = [
+  },
   {
     name: "Blood of The Martyr",
     text: [
@@ -61,6 +57,19 @@ let consumables = [
     image_url: "img/bloodofthemartyr.png",
     rarity: "Quality 3",
   },
+  {
+    name: "1up!",
+    text: [
+      "Prevents death {C:attention}once{}",
+      "{C:red}Self destructs{}"
+    ],
+    image_url: "img/1up!.png",
+    rarity: "Quality 2"
+  },
+]
+
+ 
+let consumables = [
   {
     name: "Brother Bobby",
     text: [
@@ -83,15 +92,6 @@ let consumables = [
       "{C:inactive}TBD{}"
     ],
     image_url: "img/haloofflies.png",
-    rarity: "Quality 2"
-  },
-  {
-    name: "1up!",
-    text: [
-      "Prevents death {C:attention}once{}",
-      "{C:red}Self destructs{}"
-    ],
-    image_url: "img/1up!.png",
     rarity: "Quality 2"
   },
   {
