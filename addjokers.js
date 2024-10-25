@@ -66,6 +66,25 @@ let jokers = [
     image_url: "img/1up!.png",
     rarity: "Quality 2"
   },
+  {
+    name: "Magic Mushroom",
+    text: [
+      "{X:attention,C:white}0.9x{} Blind Requirement",
+      "{C:mult}+10{} Mult",
+      "{X:mult,C:white}1.5x{} Mult",
+      "{C:attention}+3{} Hand Size"
+    ],
+    image_url: "img/magicmushroom.png",
+    rarity: "Quality 4"
+  },
+  {
+    name: "The Virus",
+    text: [
+      "{C:mult}+12{} Mult if {C:attention}first{} hand of blind"
+    ],
+    image_url: "img/thevirus.png",
+    rarity: "Quality 2"
+  },
 ]
 
  
@@ -92,25 +111,6 @@ let consumables = [
       "{C:inactive}TBD{}"
     ],
     image_url: "img/haloofflies.png",
-    rarity: "Quality 2"
-  },
-  {
-    name: "Magic Mushroom",
-    text: [
-      "{X:attention,C:white}0.9x{} Blind Requirement",
-      "{C:mult}+10{} Mult",
-      "{X:mult,C:white}1.5x{} Mult",
-      "{C:blue}+3{} Hand Size"
-    ],
-    image_url: "img/magicmushroom.png",
-    rarity: "Quality 4"
-  },
-  {
-    name: "The Virus",
-    text: [
-      "{C:mult}+12{} Mult if {C:attention}first{} hand of blind"
-    ],
-    image_url: "img/thevirus.png",
     rarity: "Quality 2"
   },
   {
