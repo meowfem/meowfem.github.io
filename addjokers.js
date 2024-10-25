@@ -35,7 +35,7 @@ let jokers = [
   {
     name: "My Reflection",
     text: [
-      "{C:blue}+2{} Hand Size"
+      "{C:attention}+2{} Hand Size"
     ],
     image_url: "img/myreflection.png",
     rarity: "Quality 2"
@@ -44,7 +44,7 @@ let jokers = [
     name: "Number One",
     text: [
       "{C:chips}+150{} Chips",
-      "{C:blue}-1{} Hand Size"
+      "{C:attention}-1{} Hand Size"
     ],
     image_url: "img/numberone.png",
     rarity: "Quality 2"
