@@ -2,7 +2,7 @@ let jokers = [
   {
     name: "The Sad Onion",
     text: [
-      "{C:chips}+70{} Chips Up"
+      "{C:chips}+70{} Chips"
     ],
     image_url: "img/thesadonion.png",
     rarity: "Quality 3"
@@ -10,7 +10,7 @@ let jokers = [
   {
     name: "The Inner Eye",
     text: [
-      "{C:hands}+3{} Hands"
+      "{C:blue}+3{} Hands"
     ],
     image_url: "img/theinnereye.png",
     rarity: "Quality 2"
