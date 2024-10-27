@@ -102,6 +102,94 @@ let jokers = [
     image_url: "img/heart.png",
     rarity: "Quality 2"
   },
+  {
+    name: "Raw Liver",
+    text: [
+      "{X:attention,C:white}0.85x{} Blind Requirement"
+    ],
+    image_url: "img/rawliver.png",
+    rarity: "Quality 2"
+  },
+  {
+    name: "Lunch",
+    text: [
+      "{X:attention,C:white}0.95x{} Blind Requirement"
+    ],
+    image_url: "img/lunch.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Dinner",
+    text: [
+      "{X:attention,C:white}0.95x{} Blind Requirement"
+    ],
+    image_url: "img/dinner.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Dessert",
+    text: [
+      "{X:attention,C:white}0.95x{} Blind Requirement"
+    ],
+    image_url: "img/dessert.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Breakfast",
+    text: [
+      "{X:attention,C:white}0.95x{} Blind Requirement"
+    ],
+    image_url: "img/breakfast.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Rotten Meat",
+    text: [
+      "{X:attention,C:white}0.95x{} Blind Requirement"
+    ],
+    image_url: "img/rottenmeat.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Mom's Underwear",
+    text: [
+      "{C:attention}+3{} Hand Size"
+    ],
+    image_url: "img/momsunderwear.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Mom's Heels",
+    text: [
+        "{C:attention}+3{} Hand Size"
+    ],
+    image_url: "img/momsheels.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Mom's Lipstick",
+    text: [
+        "{C:attention}+3{} Hand Size"
+    ],
+    image_url: "img/momslipstick.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Wire Coat Hanger",
+    text: [
+      "{C:chips}+70{} Chips"
+    ],
+    image_url: "img/wirecoathanger.png",
+    rarity: "Quality 3"
+  },
+  {
+    name: "Mr. Boom",
+    text: [
+      "{C:chips}+333{} Chips if {C:attention}last{} hand of blind"
+    ],
+    image_url: "img/mrboom.png",
+    rarity: "Quality 1"
+  },
 ]
 
  
@@ -128,14 +216,6 @@ let consumables = [
       "{C:inactive}TBD{}"
     ],
     image_url: "img/haloofflies.png",
-    rarity: "Quality 2"
-  },
-  {
-    name: "Raw Liver",
-    text: [
-      "{X:attention,C:white}0.85x{} Blind Requirement"
-    ],
-    image_url: "img/rawliver.png",
     rarity: "Quality 2"
   },
   {
@@ -180,46 +260,6 @@ let consumables = [
     rarity: "Quality 2"
   },
   {
-    name: "Lunch",
-    text: [
-      "{X:attention,C:white}0.95x{} Blind Requirement"
-    ],
-    image_url: "img/lunch.png",
-    rarity: "Quality 1"
-  },
-  {
-    name: "Dinner",
-    text: [
-      "{X:attention,C:white}0.95x{} Blind Requirement"
-    ],
-    image_url: "img/dinner.png",
-    rarity: "Quality 1"
-  },
-  {
-    name: "Dessert",
-    text: [
-      "{X:attention,C:white}0.95x{} Blind Requirement"
-    ],
-    image_url: "img/dessert.png",
-    rarity: "Quality 1"
-  },
-  {
-    name: "Breakfast",
-    text: [
-      "{X:attention,C:white}0.95x{} Blind Requirement"
-    ],
-    image_url: "img/breakfast.png",
-    rarity: "Quality 1"
-  },
-  {
-    name: "Rotten Meat",
-    text: [
-      "{X:attention,C:white}0.95x{} Blind Requirement"
-    ],
-    image_url: "img/rottenmeat.png",
-    rarity: "Quality 1"
-  },
-  {
     name: "Wooden Spoon",
     text: [
       "{C:inactive}TBD{}"
@@ -234,38 +274,6 @@ let consumables = [
     ],
     image_url: "img/thebelt.png",
     rarity: "Quality 1"
-  },
-  {
-    name: "Mom's Underwear",
-    text: [
-      "{C:blue}+3{} Hand Size"
-    ],
-    image_url: "img/momsunderwear.png",
-    rarity: "Quality 1"
-  },
-  {
-    name: "Mom's Heels",
-    text: [
-        "{C:blue}+3{} Hand Size"
-    ],
-    image_url: "img/momsheels.png",
-    rarity: "Quality 1"
-  },
-  {
-    name: "Mom's Lipstick",
-    text: [
-        "{C:blue}+3{} Hand Size"
-    ],
-    image_url: "img/momslipstick.png",
-    rarity: "Quality 1"
-  },
-  {
-    name: "Wire Coat Hanger",
-    text: [
-      "{C:chips}+70{} Chips"
-    ],
-    image_url: "img/wirecoathanger.png",
-    rarity: "Quality 3"
   },
   {
     name: "The Bible",
@@ -298,14 +306,6 @@ let consumables = [
     ],
     image_url: "img/thepoop.png",
     rarity: "Quality 0"
-  },
-  {
-    name: "Mr. Boom",
-    text: [
-      "{C:inactive}TBD{}"
-    ],
-    image_url: "img/mrboom.png",
-    rarity: "Quality 1"
   },
   {
     name: "Tammy's Head",
