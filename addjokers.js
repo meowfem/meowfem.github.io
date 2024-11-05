@@ -190,6 +190,30 @@ let jokers = [
     image_url: "img/mrboom.png",
     rarity: "Quality 1"
   },
+  {
+    name: "Boom!",
+    text: [
+    "{C:red}+10{} {C:attention}Temporary{} discards"
+  ],
+    image_url: "img/boom!.png",
+    rarity: "Quality 0"
+  },
+  {
+    name: "Mom's Bra",
+    text: [
+    "{C:attention}Disables{} Boss Blind abilities for {C:attention}2{} Hands"
+  ],
+    image_url: "img/momsbra.png",
+    rarity: "Quality 1"
+  },
+  {
+    name: "Mom's Pad",
+    text: [
+    "{C:attention}Disables{} Boss Blind abilities for {C:attention}2{} Hands"
+  ],
+    image_url: "img/momspad.png",
+    rarity: "Quality 0"
+  },
 ]
 
  
@@ -234,14 +258,6 @@ let consumables = [
     ],
     image_url: "img/adollar.png",
     rarity: "Quality 3"
-  },
-  {
-    name: "Boom!",
-    text: [
-      "{C:red}+10{} {C:attention}Temporary{} discards"
-    ],
-    image_url: "img/boom!.png",
-    rarity: "Quality 0"
   },
   {
     name: "Transcendence",
@@ -316,27 +332,11 @@ let consumables = [
     rarity: "Quality 2"
   },
   {
-    name: "Mom's Bra",
-    text: [
-      "{C:attention}Disables{} Boss Blind abilities for {C:attention}2{} Hands"
-    ],
-    image_url: "img/momsbra.png",
-    rarity: "Quality 1"
-  },
-  {
     name: "Kamikaze",
     text: [
       "{C:inactive}TBD{}"
     ],
     image_url: "img/kamikaze.png",
-    rarity: "Quality 0"
-  },
-  {
-    name: "Mom's Pad",
-    text: [
-        "{C:attention}Disables{} Boss Blind abilities for {C:attention}2{} Hands"
-    ],
-    image_url: "img/momspad.png",
     rarity: "Quality 0"
   },
   {
