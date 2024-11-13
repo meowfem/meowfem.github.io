@@ -2,6 +2,7 @@ let jokers = [
   {
     name: "The Sad Onion",
     text: [
+      "{C:inactive,s:4}Tears up{}",
       "{C:blue}+70{} Chips"
     ],
     image_url: "img/thesadonion.png",
