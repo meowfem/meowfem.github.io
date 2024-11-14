@@ -236,11 +236,7 @@ let jokers = [
 
  
 let consumables = [
-  {
-    name: "Boom!",
-    text: [
-    "{C:red}+10{} {C:attention}Temporary{} discards"
-  ],
+  
     image_url: "img/boom!.png",
     rarity: "Quality 0"
   },
@@ -285,6 +281,11 @@ let consumables = [
     image_url: "img/adollar.png",
     rarity: "Quality 3"
   },
+  {
+    name: "Boom!",
+    text: [
+    "{C:red}+10{} {C:attention}Temporary{} discards"
+  ],
   {
     name: "Transcendence",
     text: [
