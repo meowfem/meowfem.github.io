@@ -239,6 +239,7 @@ let consumables = [
   {
     name: "Brother Bobby",
     text: [
+      "{C:inactive}Friends 'till the end{}",
       "{C:inactive}TBD{}"
     ],
     image_url: "img/brotherbobby.png",
@@ -247,6 +248,7 @@ let consumables = [
   {
     name: "Skatole",
     text: [
+      "{C:inactive}Fly love{}",
       "{C:inactive}TBD{}"
     ],
     image_url: "img/skatole.png",
@@ -255,6 +257,7 @@ let consumables = [
   {
     name: "Halo of Flies",
     text: [
+      "{C:inactive}Projectile protection{}",
       "{C:inactive}TBD{}"
     ],
     image_url: "img/haloofflies.png",
@@ -263,6 +266,7 @@ let consumables = [
   {
     name: "Skeleton Key",
     text: [
+      "{C:inactive}99 keys{}",
       "{C:inactive}TBD{}"
     ],
     image_url: "img/skeletonkey.png",
@@ -271,6 +275,7 @@ let consumables = [
   {
     name: "A Dollar",
     text: [
+      "{C:inactive}$$${}",
       "{X:attention,C:white}99{} {C:attention}Sell Value{}",
       "{C:inactive}(No other effects){}"
     ],
@@ -280,6 +285,7 @@ let consumables = [
   {
     name: "Boom!",
     text: [
+    "{C:inactive}10 bombs{}",
     "{C:red}+10{} {C:attention}Temporary{} discards"
     ],
     image_url: "img/boom!.png",
