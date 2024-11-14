@@ -2,7 +2,7 @@ let jokers = [
   {
     name: "The Sad Onion",
     text: [
-      "{C:inactive,s:4}Tears up{}",
+      "{C:inactive}Tears up{}",
       "{C:blue}+70{} Chips"
     ],
     image_url: "img/thesadonion.png",
@@ -11,6 +11,7 @@ let jokers = [
   {
     name: "The Inner Eye",
     text: [
+      "{C:inactive}Triple shot{}",
       "{C:blue}+3{} Hands"
     ],
     image_url: "img/theinnereye.png",
@@ -19,6 +20,7 @@ let jokers = [
   {
     name: "Spoon Bender",
     text: [
+      "{C:inactive}Homing shots{}",
       "Balances {C:chips}Chips{} and {C:mult}Mult{}"
     ],
     image_url: "img/spoonbender.png",
@@ -27,6 +29,7 @@ let jokers = [
   {
     name: "Cricket's Head",
     text: [
+      "{C:inactive}DMG up{}",
       "{C:mult}+5{} Mult",
       "{X:mult,C:white}1.5x{} Mult"
     ],
@@ -36,6 +39,7 @@ let jokers = [
   {
     name: "My Reflection",
     text: [
+      "{C:inactive}Boomerang tears{}",
       "{C:attention}+2{} Hand Size"
     ],
     image_url: "img/myreflection.png",
@@ -44,6 +48,7 @@ let jokers = [
   {
     name: "Number One",
     text: [
+      "{C:inactive}Tears up{}",
       "{C:chips}+150{} Chips",
       "{C:attention}-1{} Hand Size"
     ],
@@ -53,6 +58,7 @@ let jokers = [
   {
     name: "Blood of The Martyr",
     text: [
+      "{C:inactive}DMG up{}",
       "{C:mult}+10{} Mult"
     ],
     image_url: "img/bloodofthemartyr.png",
@@ -61,6 +67,7 @@ let jokers = [
   {
     name: "1up!",
     text: [
+      "{C:inactive}Extra life{}",
       "Prevents death {C:attention}once{}",
       "{C:red}Self destructs{}"
     ],
@@ -70,6 +77,7 @@ let jokers = [
   {
     name: "Magic Mushroom",
     text: [
+      "{C:inactive}All stats up!{}",
       "{X:attention,C:white}0.9x{} Blind Requirement",
       "{C:mult}+10{} Mult",
       "{X:mult,C:white}1.5x{} Mult",
@@ -81,6 +89,7 @@ let jokers = [
   {
     name: "The Virus",
     text: [
+      "{C:inactive}Poison touch{}",
       "{C:mult}+12{} Mult if {C:attention}first{} hand of blind"
     ],
     image_url: "img/thevirus.png",
@@ -89,6 +98,7 @@ let jokers = [
   {
     name: "Roid Rage",
     text: [
+      "{C:inactive}Speed and range up{}",
       "{C:blue}+1{} Hand Size",
       "Gains {C:blue}+1{} Hand Size permanently per {C:attention}Blind Skipped{}"
     ],
@@ -98,6 +108,7 @@ let jokers = [
   {
     name: "<3",
     text: [
+      "{C:inactive}HP up{}",
       "{X:attention,C:white}0.9x{} Blind Requirement"
     ],
     image_url: "img/heart.png",
@@ -106,6 +117,7 @@ let jokers = [
   {
     name: "Raw Liver",
     text: [
+      "{C:inactive}HP up{}",
       "{X:attention,C:white}0.85x{} Blind Requirement"
     ],
     image_url: "img/rawliver.png",
@@ -114,6 +126,7 @@ let jokers = [
   {
     name: "Lunch",
     text: [
+      "{C:inactive}HP up{}",
       "{X:attention,C:white}0.95x{} Blind Requirement"
     ],
     image_url: "img/lunch.png",
@@ -122,6 +135,7 @@ let jokers = [
   {
     name: "Dinner",
     text: [
+      "{C:inactive}HP up{}",
       "{X:attention,C:white}0.95x{} Blind Requirement"
     ],
     image_url: "img/dinner.png",
@@ -130,6 +144,7 @@ let jokers = [
   {
     name: "Dessert",
     text: [
+      "{C:inactive}HP up{}",
       "{X:attention,C:white}0.95x{} Blind Requirement"
     ],
     image_url: "img/dessert.png",
@@ -138,6 +153,7 @@ let jokers = [
   {
     name: "Breakfast",
     text: [
+      "{C:inactive}HP up{}",
       "{X:attention,C:white}0.95x{} Blind Requirement"
     ],
     image_url: "img/breakfast.png",
@@ -146,6 +162,7 @@ let jokers = [
   {
     name: "Rotten Meat",
     text: [
+      "{C:inactive}HP up{}",
       "{X:attention,C:white}0.95x{} Blind Requirement"
     ],
     image_url: "img/rottenmeat.png",
@@ -154,6 +171,7 @@ let jokers = [
   {
     name: "Mom's Underwear",
     text: [
+      "{C:inactive}Range up{}",
       "{C:attention}+3{} Hand Size"
     ],
     image_url: "img/momsunderwear.png",
@@ -162,7 +180,8 @@ let jokers = [
   {
     name: "Mom's Heels",
     text: [
-        "{C:attention}+3{} Hand Size"
+      "{C:inactive}Range up{}",
+      "{C:attention}+3{} Hand Size"
     ],
     image_url: "img/momsheels.png",
     rarity: "Quality 1"
@@ -170,7 +189,8 @@ let jokers = [
   {
     name: "Mom's Lipstick",
     text: [
-        "{C:attention}+3{} Hand Size"
+      "{C:inactive}Range up{}",
+      "{C:attention}+3{} Hand Size"
     ],
     image_url: "img/momslipstick.png",
     rarity: "Quality 1"
@@ -178,6 +198,7 @@ let jokers = [
   {
     name: "Wire Coat Hanger",
     text: [
+      "{C:inactive}Tears up{}",
       "{C:chips}+70{} Chips"
     ],
     image_url: "img/wirecoathanger.png",
@@ -186,22 +207,17 @@ let jokers = [
   {
     name: "Mr. Boom",
     text: [
+      "{C:inactive}Reusable bomb buddy{}",
       "{C:chips}+333{} Chips if {C:attention}last{} hand of blind"
     ],
     image_url: "img/mrboom.png",
     rarity: "Quality 1"
   },
-  {
-    name: "Boom!",
-    text: [
-    "{C:red}+10{} {C:attention}Temporary{} discards"
-  ],
-    image_url: "img/boom!.png",
-    rarity: "Quality 0"
-  },
+
   {
     name: "Mom's Bra",
     text: [
+      "{C:inactive}Mass fear{}",
     "{C:attention}Disables{} Boss Blind abilities for {C:attention}2{} Hands"
   ],
     image_url: "img/momsbra.png",
@@ -210,6 +226,7 @@ let jokers = [
   {
     name: "Mom's Pad",
     text: [
+      "{C:inactive}Gross...{}",
     "{C:attention}Disables{} Boss Blind abilities for {C:attention}2{} Hands"
   ],
     image_url: "img/momspad.png",
@@ -219,6 +236,14 @@ let jokers = [
 
  
 let consumables = [
+  {
+    name: "Boom!",
+    text: [
+    "{C:red}+10{} {C:attention}Temporary{} discards"
+  ],
+    image_url: "img/boom!.png",
+    rarity: "Quality 0"
+  },
   {
     name: "Brother Bobby",
     text: [
